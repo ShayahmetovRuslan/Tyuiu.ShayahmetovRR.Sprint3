@@ -16,7 +16,7 @@ namespace Tyuiu.ShayahmetovRR.Sprint3.Task3.V10.Lib
 			{
 				if (c == item)
 				{
-					value = value.Replace(c.ToString(), String.Empty);
+					value = value.Replace(c.ToString(), "");
 				}
 			}
 			return value;
