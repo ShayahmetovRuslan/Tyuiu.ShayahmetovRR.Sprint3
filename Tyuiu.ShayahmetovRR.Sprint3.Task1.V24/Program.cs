@@ -16,7 +16,7 @@ namespace Tyuiu.ShayahmetovRR.Sprint3.Task1.V24
 			Console.Title = "Спринт #3 | Выполнил: Шаяхметов Р.Р | АСОиУб 23-1";
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* Спринт #3                                                                  *");
-			Console.WriteLine("* Тема: Оператор цикла for                                                   *");
+			Console.WriteLine("* Тема: Оператор цикла while                                                 *");
 			Console.WriteLine("* Задание #1                                                                 *");
 			Console.WriteLine("* Вариант #24                                                                *");
 			Console.WriteLine("* Выполнил: Шаяхметов Р.Р     | АСОиУб 23-1                                  *");

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.ShayahmetovRR.Sprint3.Task2.V15.Lib;
+using Tyuiu.ShayahmetovRR.Sprint3.Task3.V10.Lib;
 
-namespace Tyuiu.ShayahmetovRR.Sprint3.Task2.V15
+namespace Tyuiu.ShayahmetovRR.Sprint3.Task3.V10
 {
 	internal class Program
 	{
@@ -15,32 +15,28 @@ namespace Tyuiu.ShayahmetovRR.Sprint3.Task2.V15
 			Console.Title = "Спринт #3 | Выполнил: Шаяхметов Р.Р | АСОиУб 23-1";
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* Спринт #3                                                                  *");
-			Console.WriteLine("* Тема: Оператор цикла do...while                                            *");
-			Console.WriteLine("* Задание #2                                                                 *");
-			Console.WriteLine("* Вариант #15                                                                *");
+			Console.WriteLine("* Тема: Оператор цикла foreach                                               *");
+			Console.WriteLine("* Задание #3                                                                 *");
+			Console.WriteLine("* Вариант #10                                                                *");
 			Console.WriteLine("* Выполнил: Шаяхметов Р.Р     | АСОиУб 23-1                                  *");
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* УСЛОВИЕ:                                                                   *");
-			Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет сумму ряда *");
-			Console.WriteLine("*                                 по формуле при х = 0.5                     *");
+			Console.WriteLine("* Написать программу используя цикл foreach, которая удаляет символ из строк *");
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                           *");
 			Console.WriteLine("******************************************************************************");
 
-			double value = 0.5;
-			int StartValue = 1;
-			int StopValue = 20;
+			string value = "gdfppf vfppt p";
+			char item = 'p';
 
-			Console.WriteLine("Переменная х = " + value);
-			Console.WriteLine("StartValue = " + StartValue);
-			Console.WriteLine("StopValue = " + StopValue);
-
+			Console.WriteLine("Исходная строка: " + value);
+			Console.WriteLine("Удаляемый символ: " + item);
 
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* РЕЗУЛЬТАТ:                                                                 *");
 			Console.WriteLine("******************************************************************************");
 
-			Console.WriteLine("Сумма ряда равна: " + ds.GetSumSeries(value, StartValue, StopValue));
+			Console.WriteLine("Итоговая строка: " + ds.DeleteCharInString(value, item));
 			Console.ReadKey();
 		}
 	}
