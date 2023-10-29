@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.ShayahmetovRR.Sprint3.Task4.V28.Lib;
+using Tyuiu.ShayahmetovRR.Sprint3.Task5.V19.Lib;
 
-namespace Tyuiu.ShayahmetovRR.Sprint3.Task4.V28
+namespace Tyuiu.ShayahmetovRR.Sprint3.Task5.V19
 {
 	internal class Program
 	{
@@ -26,16 +26,23 @@ namespace Tyuiu.ShayahmetovRR.Sprint3.Task4.V28
 			Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                           *");
 			Console.WriteLine("******************************************************************************");
 
-			int startValue = -5, endValue = 5;
-			Console.WriteLine("startValue = " + startValue);
-			Console.WriteLine("endValue = " + endValue);
-			Console.WriteLine("y=(cos(x)+sin(x))/x");
+			int x = 2;
+			int startValue1 = 1;
+			int startValue2 = 1;
+			int endValue1 = 3;
+			int endValue2 = 6;
+
+			Console.WriteLine("x = " + x);
+			Console.WriteLine("startValue1 = " + startValue1);
+			Console.WriteLine("endValue1 = " + endValue1);
+			Console.WriteLine("startValue2 = " + startValue2);
+			Console.WriteLine("endValue2 = " + endValue2);
 
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* РЕЗУЛЬТАТ:                                                                 *");
 			Console.WriteLine("******************************************************************************");
 
-			Console.WriteLine("Результат: " + ds.Calculate(startValue, endValue));
+			Console.WriteLine("Результат: " + ds.GetSumSumSeries(x, startValue1, startValue2, endValue1, endValue2));
 			Console.ReadKey();
 		}
 	}
