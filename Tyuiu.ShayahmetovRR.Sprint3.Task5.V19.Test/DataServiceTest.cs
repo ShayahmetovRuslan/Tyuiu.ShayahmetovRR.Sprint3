@@ -19,7 +19,7 @@ namespace Tyuiu.ShayahmetovRR.Sprint3.Task5.V19.Test
 
 			double res = ds.GetSumSumSeries(x, startValue1, startValue2, endValue1, endValue2);
 
-			double wait = 30598,002;
+			double wait = 30598.002;
 
 			Assert.AreEqual(res, wait);
 		}
